@@ -238,7 +238,7 @@ a {
 .work-content .card {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 56px;
 }
 
 .work-content h2 {
@@ -628,8 +628,9 @@ a {
   margin-bottom: 100px;
 }
 
+
 #event .event-content {
-  height: 125vh;
+  height: 120vh;
 }
 
 #event .event-content .event-card {
@@ -722,4 +723,107 @@ a {
   border: 2px solid #41a031;
   border-radius: 8px;
   font-size: 22px;
+}
+
+/* part */
+
+#part {
+  background: #eaffee;
+}
+
+#part .part-content .part-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.part-content .part-text h2 {
+  font-size: 40px;
+  margin-top: 95px;
+}
+.part-content .ev-btn {
+  width: fit-content;
+  margin-bottom: 70px;
+}
+
+
+/* footer */
+
+#main-footer a{
+color: #fff;
+}
+  #main-footer{
+  background: #494949;
+  height: 500px;
+}
+#main-footer .footer-content{
+
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0;
+
+
+}
+
+.footer-content .icons{
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.icons .icons-box {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  color: #fff;
+}
+.icons h4{
+
+  color: #fff;
+ }
+
+.first-npr h2{
+  font-size: 32px;
+  color: #808080;
+  margin-bottom: 1rem;
+}
+
+
+  .first-npr p{
+  margin-bottom: 26px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.lists ul{
+display: flex;
+flex-direction: column;
+gap: 6px;
+font-size: 18px;
+font-weight: 200;
+  
+}
+
+.box-i{
+  display: flex;
+  width: 60px;
+  height: 60px;
+  background: #41A031;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+align-items: center;
+}
+
+
+.li-nk{
+  font-size: 22px;
+  font-weight: 600;
 }
