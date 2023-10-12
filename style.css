@@ -502,7 +502,7 @@ align-content: center;
   font-size: 15px;
   color: #41a031;
   display: inline-block;
-
+width: fit-content;
   border-bottom: 1px solid #41a031;
   line-height: inherit;
 }
